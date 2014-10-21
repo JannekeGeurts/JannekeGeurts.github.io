@@ -3,46 +3,24 @@ layout: default
 title: Janneke Geurts
 ---
 
-<header>
-    <nav id="menu">
-        <h1 id="sitename">Janneke Geurts</h1>
-        <ul>
-            <li><a href="#">Trainingen</a></li>
-            <li><a href="#">Over mij</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <ul class="dropdown">
-            <li>In gepsrek...</li>
-            <li><a href='#'>met jezelf</a></li>
-            <li><a href='#'>nu het nog kan</a></li>
-            <li class='last'><a href='#'>als professional</a></li>
-        </ul>
-    </nav>
-    <div id="logo"></div>
-</header>
+
 <section>
     <div class="section-intro">
-        <h2>In gesprek...</h2>
+        <h2>{{ site.data.home.intro.titel }}</h2>
         <div class="mod-training-intro">
-            <h3>met jezelf</h3>
-            <p>Met je eigen gevoelens, waarden en wensen in contact staan is een voorwaarde om met anderen
-                te communiceren. Een beter, prettiger en effectiever gesprek begint dus bij jezelf en ik kan je daarbij
-                helpen......</p>
-            <a href="#">lees meer</a>
+            <h3>{{ site.data.home.intro.trainingen.a.titel }}</h3>
+            <p>{{ site.data.home.intro.trainingen.a.tekst }}</p>
+            <a href="#">{{ site.data.home.intro.knop }}</a>
         </div>
         <div class="mod-training-intro">
-            <h3>nu het nog kan</h3>
-            <p>De laatste fase van een leven hoeft niet alleen verdrietig te zijn of enkel een medisch
-                circus. Het biedt ook een kans om terug te kijken, dingen waardig af te ronden en je naasten te zeggen
-                wat je nog wilt zeggen. Ik begeleid je hierin en kan je ernaartoe zingen.......</p>
-            <a href="#">lees meer</a>
+            <h3>{{ site.data.home.intro.trainingen.b.titel }}</h3>
+            <p>{{ site.data.home.intro.trainingen.b.tekst }}</p>
+            <a href="#">{{ site.data.home.intro.knop }}</a>
         </div>
         <div class="mod-training-intro">
-            <h3>als professional</h3>
-            <p>Met een goede opleiding als fundament, word je pas echt een expert in en door de praktijk.
-                Reflecteren op je eigen handelen en daarover met vakgenoten van gedachten wisselen (ook wel 'Intervisie'
-                genoemd) is een prachtige manier om je professionaliteit te vergroten.Ik leer het je aan.... </p>
-            <a href="#">lees meer</a>
+            <h3>{{ site.data.home.intro.trainingen.c.titel }}</h3>
+            <p>{{ site.data.home.intro.trainingen.c.tekst }}</p>
+            <a href="#">{{ site.data.home.intro.knop }}</a>
         </div>
     </div>
     <div class="section-quote">
@@ -53,7 +31,7 @@ title: Janneke Geurts
             biedt en ik de verbinding tussen mensen wil versterken.'</p>
         <img src="images/profielfoto_janneke.png" class="profilepicture">
     </div>
-    <div class="about-me">
+    <div id="over-mij" class="about-me">
         <h2>Over mij</h2>
         <p class="about-p1"> Janneke Geurts
             Opgeleid tot drs in de Sociale en Organisatie psychologie (RU Leiden, 1988-1994) ben ik mijn loopbaan gestart
@@ -87,7 +65,7 @@ title: Janneke Geurts
             steun in de rug, kan ik zeggen dat ik een zingende psycholoog of een ‘psychologende’ zangeres ben geworden.  
             Janneke Geurts (formeel cv op verzoek) </p>
     </div>
-    <div class="contactgegevens">
+    <div id="contact" class="contactgegevens">
         <p>
             Janneke Geurts <br>
             Drs Sociale en Organisatie psychologie <br>
@@ -99,4 +77,3 @@ title: Janneke Geurts
             KvK 01158241</p>
     </div>
 </section>
-
