@@ -1,42 +1,68 @@
 body
-  width: 1000px
   margin: 0 auto
 
+.nav-narrow
+  display: none
+
+section
+  max-width: 1000px
+  margin: 0 auto
+
+.image-header
+  background: url("/images/stock.jpg") no-repeat
+  height: 600px
+  background-size: cover
+
+.contactgegevens
+  background-color: white
+  width: 340px
+  position: absolute
+  right: 200px
+  bottom: 66px
+  padding: 10px
+
+  h2
+    margin: 0 0 20px 0
+
+  p
+    margin: 0 auto
+
 #logo
-  background: url("/images/logo-narrow.png") center no-repeat
-  height: 100px
-  margin-top: 88px
+  background: url("/images/GeurtsLogoGroot.png") no-repeat
   display: block
+  position: absolute
+  right: 70px
+  bottom: 400px
+  width: 400px
+  height: 284px
+
+.section-quote
+  background: $blue
+  position: absolute
+  right: 580px
+  top: 610px
+  padding: 10px
+  max-width: 700px
+  min-width: 350px
+  margin-left: 50px
+  margin-top: 0
+
+.quote
+  text-align: center
+  color: $light-blue
 
 h2
   text-align: center
   font-size: 2em
-  margin: 50px 20px 20px
+  margin: 0px 20px 20px
 
 .section-intro h3
   font-size: 1.3em
   padding-bottom: 12px
 
-.section-quote
-  padding: 40px 0 20px 20px
-  margin: 0px
-
 .section-intro
-  margin: 20px 0
+  margin: 260px 0 0 0
   padding-top: 20px
-
-.quote,
-.profilepicture,
-.about-p1,
-.about-p2
-  display: inline-block
-  vertical-align: top
-
-.quote
-  width: 64%
-
-.profilepicture
-  padding-left: 70px
 
 .about-me
   width: 100%
@@ -48,14 +74,10 @@ h2
 .about-p2
   width: 48%
   text-align: left
+  display: inline-block
+  vertical-align: top
 
-.contactgegevens
-  width: 100%
-  padding: 20px 0
-
-  h2
-    margin: 0 0 20px 0
-
-  p
-    width: 41%
-    margin: 0 auto
+hr
+  margin: 20px 120px
+  border: none
+  border-bottom: 1px solid $blue
