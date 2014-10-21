@@ -8,15 +8,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <script type="text/javascript" src="//use.typekit.net/jrm8xce.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-  <link rel="stylesheet" href="{{ "/css/reset.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/narrow.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" media="screen and (min-width: 451px) and (max-width: 900px)" href="{{ "/css/medium.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" media="screen and (min-width: 901px)" href="{{ "/css/wide.css" | prepend: site.baseurl }}">
-  <script src="{{ "/js/vendor/modernizr-2.6.2.min.js" | prepend: site.baseurl }}"></script>
-  <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+  <script src="{{ "/js/vendor/jquery-2.1.1.min.js" | prepend: site.baseurl }}"></script>
 </head>
-<body>
+<body class="gradient">
+<header>
+    <nav class="navigation">
+        <h1 id="sitename"><a href="index.html">Janneke Geurts</a></h1>
+    <div id="toggle-menu" class="menu">
+        <ul>
+            <li><a>Trainingen</a>
+                <ul>
+                    <li>In gepsrek...</li>
+                    <li><a href="met_jezelf.html">met jezelf</a></li>
+                    <li><a href="nu_het_nog_kan.html">nu het nog kan</a></li>
+                    <li><a href="als_professional.html">als professional</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#over-mij">Over mij</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+    <div id="logo"></div>
+</header>
