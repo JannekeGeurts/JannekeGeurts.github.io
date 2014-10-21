@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <script type="text/javascript" src="//use.typekit.net/jrm8xce.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -17,13 +18,13 @@
   <link rel="stylesheet" media="screen and (min-width: 901px)" href="{{ "/css/wide.css" | prepend: site.baseurl }}">
   <script src="{{ "/js/vendor/jquery-2.1.1.min.js" | prepend: site.baseurl }}"></script>
 </head>
-<body>
+<body class="gradient">
 <header>
-    <nav id="wide">
+    <nav class="navigation">
         <h1 id="sitename"><a href="index.html">Janneke Geurts</a></h1>
-    <div class="menu">
+    <div id="toggle-menu" class="menu">
         <ul>
-            <li><a href="#">Trainingen</a>
+            <li><a>Trainingen</a>
                 <ul>
                     <li>In gepsrek...</li>
                     <li><a href="met_jezelf.html">met jezelf</a></li>
