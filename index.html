@@ -3,52 +3,63 @@ layout: default
 title: Janneke Geurts
 ---
 
+<section>
+    <div class="container-logo">
+        <div id="logo"></div>
+    </div>
+</section>
 <div class="image-header"></div>
 <section>
-    <div id="logo"></div>
-    <div class="content-header">
-    <div class="section-quote">
-        <p class="quote">'Steeds meer zie ik dat de mate waarin een mens in staat is verbinding met zichzelf en met
-            anderen te maken, de sleutel is tot geluk. Jezelf begrijpen, de ander begrijpen en begrepen worden. Het is
-            de rode draad in mijn manier van coachen en begeleiden van individuen en groepen.'
-            'Soms kan iets niet beter gezegd worden dan via muziek. Zingen is een andere manier waarmee ik begeleiding
-            biedt en ik de verbinding tussen mensen wil versterken.'</p>
-    </div>
-    <div class="contactgegevens">
-        <h2>Contactgegevens</h2>
-        <p>
-            Janneke Geurts <a href="over-mij.html">(meer over mij)</a><br><br>
-            Drs Sociale en Organisatie psychologie <br>
-            Boerlandspad 3 <br>
-            9755 PG Onnen<br>
-            06-272 38 270 <br><br>
+    <h2 class="title-narrow">{{ site.data.home.intro.titel }} <a href="#intro-box"><img src="images/pijl.png"></a></h2>
+    <div class="content-header clearfix">
+        <div class="section-quote">
+            <div class="quote">
+                <p>'Steeds meer zie ik dat de mate waarin een mens in staat is verbinding met zichzelf en met
+                    anderen te maken, de sleutel is tot geluk. Jezelf begrijpen, de ander begrijpen en begrepen worden.
+                    Het is
+                    de rode draad in mijn manier van coachen en begeleiden van individuen en groepen.'
+                    'Soms kan iets niet beter gezegd worden dan via muziek. Zingen is een andere manier waarmee ik
+                    begeleiding
+                    biedt en ik de verbinding tussen mensen wil versterken.'</p>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contactgegevens">
+                <h2>Contactgegevens</h2>
+                <p>
+                    Janneke Geurts <a href="over-mij.html">(meer over mij)</a><br><br>
+                    Drs Sociale en Organisatie psychologie <br>
+                    Boerlandspad 3 <br>
+                    9755 PG Onnen<br>
+                    06-272 38 270 <br><br>
 
-            janneke@frensgeurts.com <br>
-            KvK 01158241</p>
+                    janneke@frensgeurts.com <br>
+                    KvK 01158241</p>
+            </div>
+        </div>
     </div>
-    </div>
-    <div class="section-intro">
-        <h2>{{ site.data.home.intro.titel }}</h2>
-        <div class="training-intro">
-        <div class="mod-training-intro">
-            <h3>{{ site.data.home.intro.trainingen.a.titel }}</h3>
-            <p>{{ site.data.home.intro.trainingen.a.tekst }}</p>
-            <a href="met_jezelf.html">{{ site.data.home.intro.knop }}</a>
-        </div>
-        </div>
-        <div class="training-intro">
-        <div class="mod-training-intro">
-            <h3>{{ site.data.home.intro.trainingen.b.titel }}</h3>
-            <p>{{ site.data.home.intro.trainingen.b.tekst }}</p>
-            <a href="nu_het_nog_kan.html">{{ site.data.home.intro.knop }}</a>
-        </div>
+    <div class="section-intro clearfix">
+            <h2 class="title-wide">{{ site.data.home.intro.titel }} <a href="#intro-box"><img src="images/pijl.png"></a></h2>
+        <div id="intro-box" class="training-intro">
+            <div class="mod-training-intro">
+                <h3>{{ site.data.home.intro.trainingen.a.titel }}</h3>
+                <p>{{ site.data.home.intro.trainingen.a.tekst }}</p>
+                <a href="met_jezelf.html">{{ site.data.home.intro.knop }}</a>
+            </div>
         </div>
         <div class="training-intro">
-        <div class="mod-training-intro">
-            <h3>{{ site.data.home.intro.trainingen.c.titel }}</h3>
-            <p>{{ site.data.home.intro.trainingen.c.tekst }}</p>
-            <a href="als_professional.html">{{ site.data.home.intro.knop }}</a>
+            <div class="mod-training-intro">
+                <h3>{{ site.data.home.intro.trainingen.b.titel }}</h3>
+                <p>{{ site.data.home.intro.trainingen.b.tekst }}</p>
+                <a href="nu_het_nog_kan.html">{{ site.data.home.intro.knop }}</a>
+            </div>
         </div>
+        <div class="training-intro">
+            <div class="mod-training-intro">
+                <h3>{{ site.data.home.intro.trainingen.c.titel }}</h3>
+                <p>{{ site.data.home.intro.trainingen.c.tekst }}</p>
+                <a href="als_professional.html">{{ site.data.home.intro.knop }}</a>
+            </div>
         </div>
     </div>
 </section>

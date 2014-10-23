@@ -1,0 +1,164 @@
+.clearfix:after
+  content: "."
+  visibility: hidden
+  display: block
+  height: 0
+  clear: both
+
+.image-header
+  background: url("/images/stock.jpg") no-repeat
+  height: 150px
+  background-size: cover
+
+body
+  background: $light-blue
+
+.title-narrow
+  margin: 25px 0 12px 0
+  text-align: center
+  font-size: 2em
+  color: $shadow-yellow
+
+  img
+    height: 20px
+
+.title-wide
+  display: none
+
+.container-logo
+  position: relative
+
+#logo
+  background: url("/images/GeurtsLogoSmall.png") no-repeat
+  position: absolute
+  height: 150px
+  width: 170px
+  right: 0
+  top: 10px
+
+.contact
+  padding: 5px
+
+.contactgegevens
+  background-color: $blue
+  color: white
+  padding: 5px 0 10px 18px
+  margin: 0 auto
+  display: block
+
+  h2
+    font-size: 1em
+    text-align: center
+    margin: 5px 0
+    font-weight: bold
+
+  a
+    color: black
+
+.quote
+  text-align: center
+  padding: 10px 15px
+  margin: 5px 0 0 0
+  display: block
+
+  p
+    padding: 10px 5px
+
+.about-me
+  margin-top: 80px
+
+  h2
+    font-size: 2em
+    text-align: center
+    margin: 10px
+
+  p
+    padding: 15px
+
+hr
+  margin: 20px 62px
+  border: none
+  border-bottom: 1px solid $blue
+
+@media (min-width: 451px)
+
+  .contact
+    margin: 0 auto
+
+  .contactgegevens
+    width: 450px
+
+  .image-header
+    height: 250px
+
+  .container-logo
+    position: relative
+
+  #logo
+    position: absolute
+    height: 300px
+    width: 320px
+    right: -105px
+    top: 100px
+
+@media (min-width: 901px)
+
+  section
+    max-width: 1000px
+    margin: 0 auto
+
+  .title-narrow
+    display: none
+
+  .image-header
+    height: 600px
+
+  #logo
+    background: url("/images/GeurtsLogoBig.png") no-repeat
+    height: 300px
+    width: 320px
+    right: 23px
+    top: 220px
+
+  .content-header
+    margin-top: -18px
+
+  .contact
+    width: 33.3%
+    float: left
+
+  .contactgegevens
+    width: 100%
+    background-color: white
+    color: black
+    padding: 19px 15px
+    margin-top: -36px
+
+    h2
+      margin: 0 0 20px 0
+      font-size: 1.5em
+      text-align: left
+
+    p
+      margin: 0 auto
+
+    a
+      color: $shadow-yellow
+
+  .section-quote
+    margin-top: 55px
+    width: 66.6%
+    float: left
+    padding: 0 5px
+
+  .quote
+    padding: 13px
+    background: $blue
+    text-align: center
+    color: $light-blue
+
+  .about-me
+    margin: 100px 0 0 0
+
+  hr
+    margin: 20px 120px
