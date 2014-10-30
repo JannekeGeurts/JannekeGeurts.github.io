@@ -6,8 +6,8 @@
   clear: both
 
 .image-header
-  background: url("/images/header-image-wide.jpg") no-repeat
-  height: 150px
+  background: url("/images/header-image-small.jpg") no-repeat
+  height: 180px
   background-size: cover
 
 body
@@ -29,12 +29,12 @@ body
   position: relative
 
 #logo
-  background: url("/images/GeurtsLogoSmall.png") no-repeat
+  background: url("/images/logo-small.png") no-repeat
   position: absolute
-  height: 150px
-  width: 170px
-  right: 0
-  top: 10px
+  width: 140px
+  height: 120px
+  right: 15px
+  top: 30px
 
 .contact
   padding: 5px
@@ -88,17 +88,19 @@ hr
   .contactgegevens
     width: 450px
 
-  .image-header
-    //background: url("/images/header-image-wide.jpg") no-repeat
-    height: 250px
-
   .container-logo
     position: relative
 
+@media (min-width: $break-header)
+
+  .image-header
+    background-image: url("/images/header-image-medium.jpg")
+    height: 340px
+
   #logo
-    position: absolute
-    height: 300px
-    width: 146px
+    background: url("/images/logo-medium.png") no-repeat
+    width: 200px
+    height: 172px
     right: 65px
     top: 100px
 
@@ -112,12 +114,13 @@ hr
     display: none
 
   .image-header
+    background-image: url("/images/header-image-wide.jpg")
     height: 600px
 
   #logo
-    background: url("/images/GeurtsLogoBig.png") no-repeat
-    height: 300px
-    width: 320px
+    background: url("/images/logo-wide.png") no-repeat
+    width: 300px
+    height: 257px
     right: 4px
     top: 220px
 
