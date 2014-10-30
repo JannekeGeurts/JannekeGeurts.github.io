@@ -6,7 +6,7 @@
   clear: both
 
 .image-header
-  background: url("/images/stock.jpg") no-repeat
+  background: url("/images/header-image-wide.jpg") no-repeat
   height: 150px
   background-size: cover
 
@@ -80,7 +80,7 @@ hr
   border: none
   border-bottom: 1px solid $blue
 
-@media (min-width: 451px)
+@media (min-width: $break-small) and (max-width: $break-small-max)
 
   .contact
     margin: 0 auto
@@ -89,6 +89,7 @@ hr
     width: 450px
 
   .image-header
+    //background: url("/images/header-image-wide.jpg") no-repeat
     height: 250px
 
   .container-logo
@@ -101,7 +102,7 @@ hr
     right: 65px
     top: 100px
 
-@media (min-width: 901px)
+@media (min-width: $break-wide)
 
   section
     max-width: 1000px
