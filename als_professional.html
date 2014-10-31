@@ -3,68 +3,25 @@ layout: default
 title: Janneke Geurts
 ---
 
+<nav class="navigation">
+    <h1 id="sitename"><a href="index.html">Janneke Geurts</a></h1>
+</nav>
 <section>
     <div class="mod-training">
-        <h1>In gesprek als professional</h1>
-        <p>Met het afronden van je opleiding en het betreden van de arbeidsmarkt ben je niet uitgeleerd.
-           In tegendeel. Het meeste van wat je zult leren gaat nog komen. Intervisie is, binnen beroepsgroepen waarbij
-           contact tussen mensen cruciaal is, een leervorm waarin professioneel handelen onderwerp is van gesprek. Artsen
-           (in opleiding) reflecteren met een groep gelijkgestemden aan de hand van praktijkervaringen op hun eigen
-           handelen en bieden elkaar steun en advies. Ik begeleid _intervisie_ bijeenkomsten met als doel dat de groep dit
-           op termijn zelf kan doen.
-
-           Een dag ‘de hei op’ met het team. Om even afstand te nemen van het werk, te reflecteren, plannen voor de
-           toekomst te maken of na te denken over hoe je als groep met elkaar bezig bent en wilt zijn. Het kan op vele
-           manieren. Ik geloof in een vorm die praten combineert met iets creeren. Samen met een beeldend kunstenaar
-           begeleid ik een teamdag die uitmondt in iets tastbaars. _Een beeld dat werkt._</p>
+        <h1>{{ site.data.als_professional.titel }}</h1>
+        <p>{{ site.data.als_professional.tekst }}</p>
         <ul>
-            <li><a href="#training1">Intervisie</a></li>
-            <li><a href="#training2">Een beeld dat werkt</a></li>
+            <li>{{ site.data.als_professional.trainingen.a.titel }}</li>
+            <li>{{ site.data.als_professional.trainingen.b.titel }}</li>
         </ul>
     </div>
-    <div id="training1" class="mod-training-part">
-        <h2>Intervisie</h2>
-        <p>Intervisie is een bijzondere vorm van groepsleren die idealiter plaats vindt met 5 tot 8
-           personen. Deze mensen vervullen eenzelfde soort rol of functie in hun organisatie(s) of tijdens hun opleiding*.
-           Tijdens een intervisie bijeenkomst is er gelegenheid om stoom af te blazen, ervaringen te delen, en steun of
-           advies te krijgen van de groep. Voorbeelden van in te brengen zaken zijn nieuwe situaties die mensen hebben
-           meegemaakt en hoe ze daarin al dan niet gehandeld hebben, zorgen die mensen ergens over hebben, observaties die
-           ze over zichzelf hebben gedaan, irritaties, gemaakte fouten en ontvangen feedback. Van ‘Ik mag haast niks doen
-           in mijn coschap’, tot ‘Ik ben onzettend moe’, van ‘Ik heb een nare begeleider’ tot ‘Ik leer het nooit!’.
-           De groep helpt om de situatie die iemand inbrengt verder te onderzoeken en blinde vlekken op te sporen door het
-           stellen van vragen. Zo kan inzicht op een dieper niveau bewerkstelligd worden alvorens er, indien gewenst, en
-           altijd pas in laatste instantie, adviezen worden geven. In intervisie ligt het accent echter op het uitdiepen
-           van het ingebrachte punt en het relateren hiervan aan de persoon die het inbrengt, met diens achtergrond, zijn
-           of haar opvoeding, karakter en normen en waarden, en niet op het advies. Als het goed is, heeft de inbrenger
-           tegen die tijd namelijk zelf al een idee gekregen over een ‘oplossing’.
-           Voor het doen van intervisie bestaan vele verschillende werkvormen en modellen. Voorafgaand aan de bijeenkomst
-           wordt een variant gekozen. De voorzitter, die ervaring moet hebben met deze rol, zorgt ervoor dat iedereen zich
-           houdt aan het gekozen model en de regels die daaruit voortvloeien. Het borgen van de veiligheid is hierbij een
-           belangrijke taak.
-           Omdat de ingebrachte thematieken over het algemeen herkenbaar zijn voor de andere deelnemers, leert iedereen, of
-           hij nu inbrenger van iets is of niet. De ervaring leert dat de deelnemers verrassende dingen over zichzelf
-           ontdekken van waaruit zij zich verder kunnen ontwikkelen. Hiervoor is een bepaalde instelling en houding nodig:
-           Eerlijk naar jezelf willen kijken en een zekere mate van tijdelijke oncomfortabelheid durven/kunnen ervaren als
-           de vragen wat persoonlijker worden.
-           Een intervisie bijeenkomst duurt in de regel tussen de 1,5 en 2,5 uur
-           *Dit in tegenstelling tot supervisie waarin een duidelijk verschil is tussen de rol van de leermeester en die
-           van de lerende(n).</p>
+    <hr>
+    <div class="mod-training-part">
+        <h2>{{ site.data.als_professional.trainingen.a.titel }}</h2>
+        <p>{{ site.data.als_professional.trainingen.a.tekst }}</p>
     </div>
-    <div id="training2" class="mod-training-part">
-        <h2>Een beeld dat werkt</h2>
-        <p>In deze unieke workshop maakt u met uw afdeling of team, onder leiding van een beeldend
-           kunstenaar en een organisatie deskundige, een kunstobject voor (in) uw organisatie.
-           U wilt met uw team een dag ‘iets leuks doen’, maar het liefst iets dat een blijvend, tastbaar resultaat geeft.
-           ‘Een beeld dat werkt’ is zo’n dag. Omdat het proces van ontwerpen en maken van het beeld gekoppeld wordt aan de
-           primaire taak van het team, de onderlinge communicatie en de samenwerking, is deze dag een perfecte gelegenheid
-           om:
-           te bekijken waar u als team voor staat, nu en in de toekomst, en hoe dat in een kunstwerk kan worden uitgedrukt
-           uw sterke punten te vieren, als groep en als individuen
-           aandachtspunten voor het team en de leden op een speelse manier naar boven te halen
-           een verdiepingsslag te maken in het contact en de samenwerking met elkaar
-           creativiteit te stimuleren
-           In een kennismakingsgesprek bekijken we op welke manier we uw wensen en onze werkwijzen op elkaar kunnen
-           afstemmen. Er zijn verschillende varianten mogelijk. Het praktijk gedeelte van de workshop wordt ondersteund
-           door Peter Silverstein van het Atelier voor Beeldende Kunst (www.golem-art.nl)</p>
+    <div class="mod-training-part">
+        <h2>{{ site.data.als_professional.trainingen.b.titel }}</h2>
+        <p>{{ site.data.als_professional.trainingen.b.tekst }} <a href="http://www.golem-art.nl">(www.golem-art.nl)</a></p>
     </div>
 </section>
